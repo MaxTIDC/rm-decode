@@ -1,7 +1,7 @@
 # rm-decode
-Decoder for Register Machines (RM). It decodes any given natural (Goedel) number into its respective RM.
+Decoder for Register Machines. It decodes any given natural (Gödel) number into its respective RM.
 
-### Register Machines
+### Register Machines / RM
 A detailed explanation of RM dealt with by this program can be found at:
 
 https://www.cl.cam.ac.uk/teaching/1718/CompTheory/lecture-2.pdf
