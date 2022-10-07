@@ -17,7 +17,7 @@ RM_t rm_decode (uint64_t index)
 	uint32_t line_count = list_decode (index, coded_program);
 	program.line_count = line_count;
 
-	print_coded_list (line_count, coded_program);
+	// print_coded_list (line_count, coded_program);
 
 	/* Now indicies[] contains coded program body. */
 	for (int i = 0; i < line_count; i++)
