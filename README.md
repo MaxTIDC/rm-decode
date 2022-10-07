@@ -1,5 +1,5 @@
 # rm-decode
-Decoder for Register (Minsky) Machines
+Decoder for Register Machines
 
 ### Register Machines
 A detailed explanation of Register Machines dealt with by this program can be found at:
