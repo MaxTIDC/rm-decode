@@ -43,4 +43,6 @@ uint32_t list_decode (uint64_t, uint32_t *);
 void print_program (RM_t);
 void print_coded_list (uint32_t, uint32_t *);
 
+int computeLen (uint64_t index);
+
 #endif

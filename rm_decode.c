@@ -65,7 +65,7 @@ static RM_Body_t line_decode (uint32_t code)
 }
 
 /* Decodes natural number (list)
- * into list of coded program lines. */
+ * into list of encodings. */
 uint32_t list_decode (uint64_t program_index, uint32_t * const coded_program)
 {
 	uint32_t line_count = 0;
@@ -149,4 +149,23 @@ void print_coded_list (uint32_t line_count, uint32_t * const coded_program)
 	}
 
 	return;
+}
+
+/* Helper function
+ * compute length of program from encoding */
+int computeLen (uint64_t index)
+{
+	int len = 0;
+
+	/* Number of 1-bits = number of program lines. */
+	while (index != 0)
+	{
+		if (index & BIT_MASK)
+		{
+			len++;
+		}
+		index = index >> 1;
+	}
+
+	return len == 0 ? 1 : len;
 }
