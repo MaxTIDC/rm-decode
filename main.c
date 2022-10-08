@@ -9,12 +9,13 @@ int main (int argc, char** argv)
 
 	if (argc < 1 || argv[1] == NULL || argv[1][0] == '-')
 	{
-		printf("Usage: ./rm_decode [encoding] \n - [encoding]: natural (Gödel) number encoding for RM. \n");
+		printf ("Usage: ./rm_decode [encoding] \n");
+		printf (" - [encoding]: natural (Gödel) number encoding for RM. \n");
 		return -1;
 	}
 
 	/* Read encoding from input argument. */
-	index = strtoul(argv[1], NULL, 10);
+	index = strtoul (argv[1], NULL, 10);
 
 	RM_t rm = rm_decode (index);
   print_program (rm);
