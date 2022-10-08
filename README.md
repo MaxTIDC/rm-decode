@@ -6,7 +6,7 @@ A detailed explanation for RM dealt with by this program can be found at:
 
 https://www.cl.cam.ac.uk/teaching/1718/CompTheory/lecture-2.pdf
 
-And explanation Gödel encodings:
+And explanation for Gödel numberings:
 
 https://www.cl.cam.ac.uk/teaching/1718/CompTheory/lecture-3.pdf
 
