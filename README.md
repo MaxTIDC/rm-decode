@@ -2,9 +2,14 @@
 Decoder for Register Machines. It decodes any given natural (Gödel) number into its respective RM.
 
 ### Register Machines / RM
-A detailed explanation of RM dealt with by this program can be found at:
+A detailed explanation for RM dealt with by this program can be found at:
 
 https://www.cl.cam.ac.uk/teaching/1718/CompTheory/lecture-2.pdf
+
+And explanation Gödel encodings:
+
+https://www.cl.cam.ac.uk/teaching/1718/CompTheory/lecture-3.pdf
+
 
 ### Compilation
 
